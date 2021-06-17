@@ -64,14 +64,30 @@ Selanjutnya refresh Kembali browser, maka akan ditampilkan hasilnya yaotu halama
 # Method ini belum ada pada routing, sehingga cara mengaksesnya dengan menggunakan alamat: http://localhost:8080/page/tos
 ![11](https://user-images.githubusercontent.com/56242226/122394967-b72f9d00-cfa0-11eb-9d94-3b29f33e86dd.PNG)
 
+# Ubah method about pada class Controller Page menjadi seperti berikut:
+![12](https://user-images.githubusercontent.com/56242226/122396433-2e196580-cfa2-11eb-8168-37db5f2c2f25.PNG)
 
+# Buat file css pada direktori public dengan nama style.css (copy file dari praktikum lab4_layout. Kita akan gunakan layout yang pernah dibuat pada praktikum 4.
+![13](https://user-images.githubusercontent.com/56242226/122396548-4ab59d80-cfa2-11eb-86b0-ca0a728808df.PNG)
 
+# Kemudian buat folder template pada direktori view kemudian buat file header.php dan footer.php
+![14](https://user-images.githubusercontent.com/56242226/122396647-64ef7b80-cfa2-11eb-8d42-8f0ebd2a569d.PNG)
 
+# Kemudian ubah file app/view/about.php seperti berikut
+![14a](https://user-images.githubusercontent.com/56242226/122396731-80f31d00-cfa2-11eb-8e0a-e88a4bda4921.PNG)
 
+# Selanjutnya refresh tampilan pada alamat http://localhost:8080/about
+![14b](https://user-images.githubusercontent.com/56242226/122396829-98320a80-cfa2-11eb-803c-b7f542b1f999.PNG)
 
+# Pertanyaan dan Tugas
+Lengkapi kode program untuk menu lainnya yang ada pada Controller Page, sehingga 
+semua link pada navigasi header dapat menampilkan tampilan dengan layout yang sama.
 
+# Halaman About 
+![15](https://user-images.githubusercontent.com/56242226/122396996-bb5cba00-cfa2-11eb-827c-9882072ee5c4.PNG)
 
-
+# Halaman Contact
+![16](https://user-images.githubusercontent.com/56242226/122397063-cdd6f380-cfa2-11eb-8582-db5c2508a2f0.PNG)
 
 
 
