@@ -137,12 +137,59 @@ Buka Kembali file app/config/Routes.php, kemudian tambahkan routing untuk artike
 ![9](https://user-images.githubusercontent.com/56242226/123267389-2835fe00-d527-11eb-99cd-709de5be4b61.PNG)
 # Kemudian Refresh kembali 
 ![9a](https://user-images.githubusercontent.com/56242226/123267591-629f9b00-d527-11eb-9ed7-7a701bf03ea9.PNG)
+# Membuat Menu Admin
+Menu admin adalah untuk proses CRUD data artikel. Buat method baru pada Controller Artikel dengan nama admin_index().
+![10](https://user-images.githubusercontent.com/56242226/123281008-823cc080-d533-11eb-86e5-d9e3aa241872.PNG)
+# Selanjutnya buat view untuk tampilan admin dengan nama admin_index.php
+![11](https://user-images.githubusercontent.com/56242226/123281230-b4e6b900-d533-11eb-858d-1d9ec3293c4d.PNG)
+![11a](https://user-images.githubusercontent.com/56242226/123281283-c4660200-d533-11eb-92f5-5be7be814061.PNG)
+# Tambahkan routing untuk menu admin seperti berikut:
+![11b](https://user-images.githubusercontent.com/56242226/123281550-fa0aeb00-d533-11eb-868b-e1b5b18ae9d0.PNG)
+# Setelah itu buat template header dan footer baru untuk Halaman Admin. 
+Buat file baru dengan nama admin_header.php pada direktori app/view/template
 
+![12](https://user-images.githubusercontent.com/56242226/123282116-6b4a9e00-d534-11eb-9107-7b9bdbae0118.PNG)
 
+Buat file baru dengan nama admin_footer.php pada direktori app/view/template
 
+![12a](https://user-images.githubusercontent.com/56242226/123282323-9503c500-d534-11eb-8cfd-8cc300bbbbe9.PNG)
 
+Kemudian buat file baru lagi dengan nama admin.css pada direktori ci4/public untuk memperindah tampilan Halaman Admin
 
+![13](https://user-images.githubusercontent.com/56242226/123282472-bbc1fb80-d534-11eb-9b37-93998f479e3e.PNG)
+![13a](https://user-images.githubusercontent.com/56242226/123282523-c8deea80-d534-11eb-83e0-46b6f08a3a78.PNG)
 
+setelah itu Akses menu admin dengan url http://localhost:8080/admin/artikel
+
+![13b](https://user-images.githubusercontent.com/56242226/123282631-e4e28c00-d534-11eb-90d1-de616777f9ce.PNG)
+# Menambah Data Artikel
+Tambahkan fungsi/method baru pada Controller Artikel dengan nama add().
+
+![14](https://user-images.githubusercontent.com/56242226/123282716-f75cc580-d534-11eb-9d94-44589339039c.PNG)
+
+Kemudian buat view untuk form tambah dengan nama form_add.php
+
+![14a](https://user-images.githubusercontent.com/56242226/123282730-f88df280-d534-11eb-9e2f-07e5f7f19411.PNG)
+
+Setelah itu klik tambah artikel maka tampilan nya seperti berikut ..
+
+![14b](https://user-images.githubusercontent.com/56242226/123282733-f9268900-d534-11eb-9ee0-1aba942c1483.PNG)
+# Mengubah Data
+Tambahkan fungsi/method baru pada Controller Artikel dengan nama edit(). 
+
+![15](https://user-images.githubusercontent.com/56242226/123282738-f9bf1f80-d534-11eb-96c1-9016307cee76.PNG)
+
+Kemudian buat view untuk form tambah dengan nama form_edit.php
+
+![15a](https://user-images.githubusercontent.com/56242226/123282741-fa57b600-d534-11eb-98f1-1ec2573eb220.PNG)
+
+maka tampilan nya seperti ini 
+
+![15b](https://user-images.githubusercontent.com/56242226/123282772-ff1c6a00-d534-11eb-885b-cea353cb48bd.PNG)
+# Menghapus Data
+Tambahkan fungsi/method baru pada Controller Artikel dengan nama delete(). 
+
+![16](https://user-images.githubusercontent.com/56242226/123282778-004d9700-d535-11eb-813b-9fdc9d330244.PNG)
 
 
 
