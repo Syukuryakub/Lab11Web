@@ -1,4 +1,4 @@
-# Lab11Web
+# Lab11Web dan Framework Lanjutan (CRUD )
 Nama   : Syukur Yakub
 
 Kelas  : TI.19.C1
@@ -88,6 +88,57 @@ semua link pada navigasi header dapat menampilkan tampilan dengan layout yang sa
 
 # Halaman Contact
 ![16](https://user-images.githubusercontent.com/56242226/122397063-cdd6f380-cfa2-11eb-8582-db5c2508a2f0.PNG)
+
+# Praktikum 12: Framework Lanjutan (CRUD)
+# Langkah-langkah Praktikum
+Untuk memulai membuat aplikasi CRUD sederhana, yang perlu disiapkan adalah 
+database server menggunakan MySQL. Pastikan MySQL Server sudah dapat dijalankan 
+melalui XAMPP.
+# Membuat Database dan Membuat Tabel
+![1](https://user-images.githubusercontent.com/56242226/123265954-c32dd880-d525-11eb-8482-8e7061725a63.PNG)
+# Konfigurasi koneksi database
+Selanjutnya membuat konfigurasi untuk menghubungkan dengan database server. 
+Konfigurasi dapat dilakukan dengan du acara, yaitu pada file app/config/database.php
+atau menggunakan file .env. Pada praktikum ini kita gunakan konfigurasi pada file .env. 
+
+![2a](https://user-images.githubusercontent.com/56242226/123266120-ebb5d280-d525-11eb-8b1d-205257065232.PNG)
+# Membuat Model
+Selanjutnya adalah membuat Model untuk memproses data Artikel. Buat file baru pada direktori app/Models dengan nama ArtikelModel.php
+
+![3](https://user-images.githubusercontent.com/56242226/123266380-291a6000-d526-11eb-9d5d-4a67f7d12081.PNG)
+# Membuat Controller
+Buat Controller baru dengan nama Artikel.php pada direktori app/Controllers.
+
+![4](https://user-images.githubusercontent.com/56242226/123266466-42231100-d526-11eb-8e8b-245dfddbd593.PNG)
+# Membuat View
+Buat direktori baru dengan nama artikel pada direktori app/views, kemudian buat file baru dengan nama index.php. 
+
+![5](https://user-images.githubusercontent.com/56242226/123266591-61ba3980-d526-11eb-9623-d0deb6c256cf.PNG)
+
+# Selanjutnya buka browser kembali, dengan mengakses url http://localhost:8080/artikel
+![5a](https://user-images.githubusercontent.com/56242226/123266721-7bf41780-d526-11eb-8ecd-755429a43a75.PNG)
+
+# Belum ada data yang diampilkan. Kemudian coba tambahkan beberapa data pada database agar dapat ditampilkan datanya.
+![6](https://user-images.githubusercontent.com/56242226/123267066-c8d7ee00-d526-11eb-90e6-b68ac9689909.PNG)
+
+# Refresh kembali browser, sehingga akan ditampilkan hasilnya.
+![6a](https://user-images.githubusercontent.com/56242226/123267129-dd1beb00-d526-11eb-94ec-9819d341f0ae.PNG)
+# Membuat Tampilan Detail Artikel
+Tampilan pada saat judul berita di klik maka akan diarahkan ke halaman yang berbeda. Tambahkan fungsi baru pada Controller Artikel dengan nama view().
+
+![7](https://user-images.githubusercontent.com/56242226/123267238-fae95000-d526-11eb-892e-edcfeafd202d.PNG)
+# Membuat View Detail
+Buat view baru untuk halaman detail dengan nama app/views/artikel/detail.php.
+
+![8](https://user-images.githubusercontent.com/56242226/123267321-12c0d400-d527-11eb-984e-b050d35ee41e.PNG)
+# Membuat Routing untuk artikel detail
+Buka Kembali file app/config/Routes.php, kemudian tambahkan routing untuk artikel detail.
+
+![9](https://user-images.githubusercontent.com/56242226/123267389-2835fe00-d527-11eb-99cd-709de5be4b61.PNG)
+# Kemudian Refresh kembali 
+![9a](https://user-images.githubusercontent.com/56242226/123267591-629f9b00-d527-11eb-9ed7-7a701bf03ea9.PNG)
+
+
 
 
 
